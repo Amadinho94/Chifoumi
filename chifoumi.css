@@ -1,0 +1,136 @@
+/*FOND DE PAGE WEB ET POLICE DE CARACTERE*/
+body {
+    font-family:Arial;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 58%, rgba(224,0,255,1) 100%);
+    color: rgba(224,0,255,1);
+}
+
+/*CARRE NOIR*/
+.carre-noir {
+    background:black;
+    padding:5%;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20px;
+}
+
+
+/*TITRES*/
+.center-title {
+    text-align:center;
+}
+.center-title h1:nth-child(1) {
+    text-align:center;
+    color:white;
+}
+.center-title h2 {
+    text-align:center;
+    color:white;
+}
+
+
+/*ADVERSAIRES (TOI ET SKYNET)*/
+.flex-contender {
+    display:flex;
+    gap:50%;
+    justify-content:center;
+}
+.flex-contender h1 {
+    text-align:center;
+    color:white;
+}
+
+
+/*ICON (PIERRE PAPIER CISEAUX)*/
+.icon {
+    font-size: 50px;
+}
+.flex-icon {
+    display:flex;
+    justify-content:space-around;
+}
+.flex-icon>div:hover {
+    color:white;
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+
+/*BOUTON COMMENCER/RECOMMENCER/REESAYER/CONTINUER*/
+.div-button-start {
+    text-align:center;
+    padding:4%;
+}
+.div-button-start > button{
+    padding:1% 3% 1% 3%;
+    border-radius:10px;
+    background:rgba(121,9,119,1);
+    color:white;
+    font-size:25px;
+}
+.div-button-start > button:hover {
+    background:white;
+    color:rgba(121,9,119,1);
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+
+/*AFFICHAGE CHOIX UTILISATEUR ET CHOIX SKYNET*/
+.flex-result {
+    display:flex;
+    justify-content:space-around;
+}
+
+
+/*CAMOUFLAGE TEMPORAIRE*/
+.display-none {
+    display:none;
+}
+
+
+
+/*********************************************************
+                     MEDIA QUERIES
+*********************************************************/
+/*VERSION TABLETTE*/
+@media screen and (min-width:760px) and (max-width:940px){
+    .carre-noir {
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    body {
+       margin:3%;
+       display:flex;
+    }
+}
+
+
+/*VERSION MOBILE*/
+@media screen and (max-width:760px) {
+    .carre-noir {
+        width:100%;
+        margin:5%;
+    }
+    body {
+       margin:0;
+       display:flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

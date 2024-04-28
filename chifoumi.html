@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chifoumi - Projet CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="chifoumi.css" type="text/css" />
+    <script src="chifoumi.js" defer></script>
+</head>
+<body>
+    
+    <!--CARRE NOIR-->
+    <div class="carre-noir">
+        <!--LES 2 TITRES-->
+        <div class="center-title">
+           <h1 class="title1">Bienvenue sur le jeu</h1>
+           <h1 class="title2">CHIFOUMI</h1>
+           <h2 class="rules">Le premier arrivé à 3 manches gagnées remporte la partie</h2>
+        </div>
+        
+        
+        <!--SCORE-->
+        <div class="flex-contender display-none">
+            <h1>TOI<br><span class="scoreToi">0</span></br></h1>
+            <h1>SKYNET<br><span class="scoreSkynet">0</span></br></h1>
+        </div>
+        
+        
+        <!--RESULTAT DE LA MANCHE-->
+        <div class="flex-result">
+            <div class="resultCiseaux display-none">
+                <i class="fa-solid fa-scissors icon"></i>
+            </div>
+            <div class="resultFeuille display-none">
+                <i class="fa-solid fa-hand icon"></i>
+            </div>
+            <div class="resultPierre display-none">
+                <i class="fa-solid fa-hand-back-fist icon"></i>
+            </div>
+            
+            <div class="resultCiseaux2 display-none">
+                <i class="fa-solid fa-scissors icon"></i>
+            </div>
+            <div class="resultFeuille2 display-none">
+                <i class="fa-solid fa-hand icon"></i>
+            </div>
+            <div class="resultPierre2 display-none">
+                <i class="fa-solid fa-hand-back-fist icon"></i>
+            </div>
+        </div>
+        
+
+        
+        <!--BUTTON CHOIX UTILISATEUR-->
+        <div class="display-none flex-icon">
+            <div class="btnCiseaux">
+                <i class="fa-solid fa-scissors icon"></i>
+            </div>
+            <div class="btnFeuille">
+                <i class="fa-solid fa-hand icon"></i>
+            </div>
+            <div class="btnPierre">
+                <i class="fa-solid fa-hand-back-fist icon"></i>
+            </div>
+        </div>
+        
+        
+        <!--BOUTON COMMENCER/RECOMMENCER/REESAYER UNE PARTIE-->
+        <div class="div-button-start">
+            <button>COMMENCER</button>
+        </div>
+     
+     
+    </div>
+    
+
+</body>
+</html>
